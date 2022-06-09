@@ -1,6 +1,7 @@
 
 package employeetest;
 
+import java.sql.Date;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 
@@ -69,7 +70,7 @@ public class Employee {
                 + ", name=" + name 
                 + ", lastNameFather=" + lastNameFather 
                 + ", lastNameMother=" + lastNameMother 
-                + ", birthdate=" + dateFormat.format(birthdate)  + '}';
+                + ", birthdate=" + dateFormat.format(Date.valueOf(birthdate))  + '}';
     }
     
     
