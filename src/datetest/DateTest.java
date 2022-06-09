@@ -22,12 +22,12 @@ public class DateTest {
         int day = Integer.valueOf(string.substring(0, 2));
         int month = Integer.valueOf(string.substring(3, 5));
         int year = Integer.valueOf(string.substring(6));
-        return (day > 0 && day < 31 &&
-                month > 0 && month < 12 &&
+        return (day > 0 && day <= 31 &&
+                month > 0 && month <= 12 &&
                 year > 1900);
     }
     
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) {
         
         String test1 = "45/13/2002";
         System.out.println(test1);
