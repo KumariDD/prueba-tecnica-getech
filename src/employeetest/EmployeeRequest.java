@@ -75,7 +75,7 @@ public class EmployeeRequest {
             return false;
         }
         if (!string.matches("[A-Z][ a-zA-Z]+")) {
-            System.out.println("La cadena " + string +  "tiene un error, favor de verificar");
+            System.out.println("La cadena " + string +  " tiene un error, favor de verificar");
             return false;
         }
         return true;
@@ -87,7 +87,7 @@ public class EmployeeRequest {
             return false;
         }
         if(!string.matches("[0-3][0-9]/[0-1][0-9]/[0-2][0-9]{3}")) {
-            System.out.println("La fecha " + string +  "debe tener el formato dd/MM/yyyy");
+            System.out.println("La fecha " + string +  " debe tener el formato dd/MM/yyyy");
             return false;
         }
         int day = Integer.valueOf(string.substring(0, 2));
