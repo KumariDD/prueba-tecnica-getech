@@ -7,6 +7,9 @@ Prueba tecnica para GETechnologies
 Este enfoque permite generar estructuras simples de código que pueden reutilizarse, así como relacionarse e interactuar entre ellos, ya sea de forma jerárquica o compartiendo comportamientos, lo que hace este paradigma idóneo para sistemas con diversas entidades relacionadas entre si, que interactúan para proporcionar un procesamiento definido.
 
 2. Si realizamos un sistema de inventarios para un supermercado desde 0, ¿Cuáles serían tus preguntas hacia el cliente?
+* ¿Con qué presupuesto se cuenta para desarrollar el sistema?
+* ¿Para qué plataforma se tiene pensado el desarrollo del sistema (web, móvil, escritorio, etc.)?
+* ¿En cuánto tiempo se requiere que el sistema se encuentre funcionando?
 * ¿Cuál es el proceso actual de funcionamiento del inventario?
 * ¿De qué forma se registra la entrada y salida de productos al inventario?
 * ¿Se realiza algún conteo a la llegada de productos por parte del proveedor?
